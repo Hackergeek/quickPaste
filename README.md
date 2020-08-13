@@ -4,7 +4,12 @@
 
 [使用国内镜像网站解决github clone速度慢问题](https://blog.csdn.net/u014630636/article/details/106181159)
 
+## 使用演示
+
+![使用演示](img/demo.gif)
+
 ## 使用步骤
+
 以Chrome浏览器为例：
 1. 下载项目
 2. 在浏览器的扩展程序里打开开发者模式
