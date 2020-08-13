@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "qucickPaste",
+    "version": "1.0.0",
+    "description": "快速替换github.com",
+
+    "icons": {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    },
+
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+
+    "permissions": [
+        "contextMenus"
+    ],
+
+    "homepage_url": "https://blog.csdn.net/u014630636/article/details/106181159",
+
+    "default_locale": "zh_CN"
+}
