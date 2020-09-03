@@ -30,7 +30,7 @@ chrome.contextMenus.create({
         // 注意不能使用location.href，因为location是属于background的window对象
         if (!isEmpty(params.selectionText)) {
             params.selectionText = "git clone " + params.selectionText;
-            copyToClip(params.selectionText.replace("github.com", "git.sdut.me"));
+            copyToClip(params.selectionText.replace("github.com", "github.com.cnpmjs.org"));
         }
         if (!isEmpty(params.linkUrl)) {
             params.linkUrl = "git clone " + params.linkUrl;
