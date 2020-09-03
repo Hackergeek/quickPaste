@@ -34,7 +34,7 @@ chrome.contextMenus.create({
         }
         if (!isEmpty(params.linkUrl)) {
             params.linkUrl = "git clone " + params.linkUrl;
-            copyToClip(params.linkUrl.replace("github.com", "git.sdut.me"));
+            copyToClip(params.linkUrl.replace("github.com", "github.com.cnpmjs.org"));
         }
 
     }
